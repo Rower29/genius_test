@@ -1,0 +1,44 @@
+:root{
+    --color-primary-dark:#011C44;
+    --color-brand:blue;
+}
+
+/*Base */
+body{
+    color: var(--color-primary-dark);
+}
+ul, li{
+    list-style-type: none;
+}
+h1 {
+    color: var(--color-brand);
+}
+.beanty-zone {
+    color:var(--color-brand);
+}
+.menu{
+    background-color:#48070740;
+}
+/*Button */
+.button{
+    color: aliceblue;
+background-color: #2B7FFF;  
+border: 2px;
+border-radius: 8px;
+}
+.button:hover{
+    background-color:var(--color-brand);
+    cursor:pointer
+}
+.button:focus {
+    background-color:var(--color-brand);
+}
+/*Link */
+.link.hover {
+        color: var(--color-brand);
+}
+
+.hero-title{
+    color:#000000 /*HEX value - перетин синього червоного і зеленого кольорів*/
+}
+
